@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Benne', serif;
+}
+.home{
+  background-color: #1289A7;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.btn-primary{
+  background-color: #F79F1F;
+  padding: 15px 25px;
+ letter-spacing: 2px;
+ font-size: 35px;
+ text-transform: capitalize;
+ border: none !important;
+}
+.btn-primary:hover{
+  background-color: #e60e56;
+}
+.quiz{
+  background-color: #af0a4f;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.quiz .card{
+  background-color: #065875;
+  border: none !important;
+border-radius: 10px;
+height: 400px;
+padding: 25px;
+color: #fff;
+}
+.quiz .btn{
+  
+  padding: 10px 0;
+  
+}
+.btn-success{
+  padding: 8px 15px 5px !important;
+  border: none !important;
+  background-color: tomato;
+}
+.btn-success:hover{
+  background-color: tomato;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ padding-top: 100px;
+}
